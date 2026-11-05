@@ -136,18 +136,49 @@ These projects show different stages of my work: a completed empirical analysis,
   </tr>
 </table>
 
-## Professional experience
+## Professional Experience
 
-| Role | Organisation | Period |
-|---|---|---|
-| Research and M&E Analyst | National Agricultural Value-Chains Development | Sep 2024 – Oct 2025 |
-| Field Technical Lead | Kenya National Farmers Federation (KENAFF) | Feb 2023 – Oct 2024 |
-| Impact Evaluation Enumerator | Policy and Market Option (MESPT) Project | Feb 2023 – Apr 2024 |
-| Farm Manager | Mabanga ATC Farms | Mar 2022 – Jan 2023 |
-| Agricultural Intern | Ministry of Agriculture, Kimilili Sub-County | Mar 2021 – Aug 2021 |
-| Census Enumerator | Kenya National Bureau of Statistics (KNBS) | Aug 2019 |
+My experience combines agricultural research and monitoring, farmer engagement, field operations and household-level data collection. The roles below are presented in reverse chronological order.
 
-Across these roles, I have supported agricultural research and monitoring, household data collection, farmer training, field activity coordination, farm operations, data verification and reporting.
+### 🔎 Research and M&E Analyst
+**National Agricultural Value-Chains Development** · *September 2024 – October 2025*
+
+- Supported agricultural and development research through household- and farmer-level data collection, field coordination and project documentation.
+- Reviewed and validated quantitative and qualitative information, supported dataset preparation, and contributed to monitoring and evaluation methodologies and reports.
+- Worked with research teams to resolve data-quality issues and interpret evidence on smallholder farming systems, agricultural practices and household livelihoods.
+
+### 🌾 Field Technical Lead
+**Kenya National Farmers Federation (KENAFF)** · *February 2023 – October 2024*
+
+- Conducted field visits to monitor crop maturity, crop-management activities and implementation timelines, helping teams track progress against schedules and budgets.
+- Delivered farmer training on regulatory compliance and provided practical guidance on planting and crop-management practices.
+- Compiled and presented project activity data, supported agricultural product quality checks, and maintained working relationships with farmers and stakeholders.
+
+### 📋 Impact Evaluation Enumerator
+**Policy and Market Option (MESPT) Project** · *February 2023 – April 2024*
+
+- Conducted household surveys and key-informant interviews across multiple villages to collect information on farmer livelihoods and project outcomes.
+- Used structured data-collection tools while maintaining accuracy, completeness, research ethics and participant confidentiality.
+- Documented field observations and shared feedback that helped improve survey tools and field implementation.
+
+### 🚜 Farm Manager
+**Mabanga ATC Farms** · *March 2022 – January 2023*
+
+- Coordinated crop and livestock farm operations, including equipment maintenance, labour planning, and the recruitment and supervision of seasonal workers during cultivation and harvest.
+- Maintained farm activity records and supported purchasing, marketing and customer relations.
+- Monitored crop health and product quality and supported sustainable waste-recycling practices.
+
+### 🌱 Agricultural Intern
+**Ministry of Agriculture, Kimilili Sub-County** · *March 2021 – August 2021*
+
+- Supported agricultural extension and field-monitoring activities with smallholder farmers and accompanied agricultural officers during field visits.
+- Organised agricultural information in Microsoft Excel and prepared data summaries and reports to support departmental planning and farmer-facing activities.
+
+### 🏠 Census Enumerator
+**Kenya National Bureau of Statistics (KNBS)** · *August 2019*
+
+- Conducted household visits and interviews to collect demographic and household information, following standard enumeration procedures and data-quality requirements.
+
 
 ## Education and professional development
 
