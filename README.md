@@ -48,10 +48,10 @@ My work and learning bring together agricultural research, field data collection
       <p><em>Current stage: initial data audit and exploration.</em></p>
     </td>
     <td width="50%" valign="top">
-      <h3>Agricultural Research & Data Portfolio</h3>
-      <p>This repository brings together my research interests, analytical development, and applied work in agricultural economics. It is being developed as a professional record of projects and learning.</p>
-      <p><strong>Focus:</strong> agricultural research, data analysis, research communication, and reproducibility.</p>
-      <p><em>Current stage: portfolio development.</em></p>
+      <h3>Agroecological Practice Bundles & Food Security</h3>
+      <p>My MSc research examines how combinations of agroecological practices relate to household food security among smallholder maize farmers in Kimilili Sub-County, Bungoma County, Kenya.</p>
+      <p><strong>Focus:</strong> agroecological practice bundles, household food security, and production diversity.</p>
+      <p><em>Current stage: postgraduate research development.</em></p>
     </td>
   </tr>
 </table>
