@@ -12,6 +12,12 @@ All experience, education, training and project claims below are based on the po
 <h3 align="center">Agricultural Research · Agricultural Economics · Data Analytics</h3>
 
 <p align="center">
+  <strong>📍 Nairobi, Kenya</strong> &nbsp;·&nbsp;
+  <a href="mailto:joshuamasika@hotmail.com">joshuamasika@hotmail.com</a> &nbsp;·&nbsp;
+  <a href="tel:+254797810541">+254 797 810 541</a>
+</p>
+
+<p align="center">
   <a href="mailto:joshuamasika@hotmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-1f6feb?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/Masika-star"><img src="https://img.shields.io/badge/GitHub-Masika--star-24292f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <img src="https://komarev.com/ghpvc/?username=Masika-star&style=for-the-badge&color=2e8b57" alt="Profile views">
@@ -25,11 +31,11 @@ All experience, education, training and project claims below are based on the po
 
 ## About me
 
-I am an agricultural economics professional and postgraduate researcher with more than four years of experience across agricultural research and monitoring, household surveys, farmer engagement, field coordination and agricultural operations.
+I am an agricultural economics professional and postgraduate researcher based in **Nairobi, Kenya**, with more than four years of experience across agricultural research and monitoring, household surveys, farmer engagement, field coordination and agricultural operations.
 
-I hold a **BSc in Agricultural Economics and Resource Management from Maasai Mara University** and am currently pursuing an **MSc in Agricultural Economics at Chuka University, Kenya**.
+I hold a **BSc in Agricultural Economics and Resource Management from Maasai Mara University** and am currently pursuing an **MSc in Agricultural Economics at Chuka University**.
 
-My work sits at the intersection of agricultural research, field experience and data analysis. I am interested in understanding how farming practices, production decisions and institutional support influence smallholder livelihoods and household food security. I am also developing my R programming and reproducible research skills through practical projects.
+My work brings together agricultural research, field experience and data analysis. I am interested in understanding how farming practices, production decisions and institutional support influence smallholder livelihoods and household food security. I use tools such as Stata, Excel and KoboToolbox in research and fieldwork, and I am building my R programming and reproducible research skills through practical, documented projects.
 
 **Current research focus:** Effects of Agroecological Practice Bundles on Household Food Security among Smallholder Maize Farmers in Kimilili Sub-County, Bungoma County, Kenya.
 
@@ -217,6 +223,10 @@ Restricted or confidential farmer-level data are not published in this portfolio
 ## Connect With Me
 
 I welcome opportunities for research collaboration, agricultural data analysis, field research, monitoring and evaluation, and evidence-based work on food systems and rural development.
+
+<p align="center">
+  📍 Nairobi, Kenya &nbsp;·&nbsp; 📞 <a href="tel:+254797810541">+254 797 810 541</a>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/joshua-masika-47b793215/" target="_blank"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
