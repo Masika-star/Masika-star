@@ -144,28 +144,16 @@ These projects show different stages of my work: a completed empirical analysis,
 
 ## Professional Experience
 
-My experience combines agricultural research and monitoring, farmer engagement, field operations and household-level data collection. The roles below are presented in reverse chronological order.
+My experience combines agricultural research, monitoring and evaluation, household-level data collection, field coordination and farm operations. The roles below are presented in reverse chronological order.
 
 ### 🔎 Research and M&E Analyst
-**National Agricultural Value-Chains Development** · *September 2024 – October 2025*
+**Policy and Market Option (MESPT) Project** · *February 2023 – October 2024*
 
-- Supported agricultural and development research through household- and farmer-level data collection, field coordination and project documentation.
-- Reviewed and validated quantitative and qualitative information, supported dataset preparation, and contributed to monitoring and evaluation methodologies and reports.
-- Worked with research teams to resolve data-quality issues and interpret evidence on smallholder farming systems, agricultural practices and household livelihoods.
-
-### 🌾 Field Technical Lead
-**Kenya National Farmers Federation (KENAFF)** · *February 2023 – October 2024*
-
-- Conducted field visits to monitor crop maturity, crop-management activities and implementation timelines, helping teams track progress against schedules and budgets.
-- Delivered farmer training on regulatory compliance and provided practical guidance on planting and crop-management practices.
-- Compiled and presented project activity data, supported agricultural product quality checks, and maintained working relationships with farmers and stakeholders.
-
-### 📋 Impact Evaluation Enumerator
-**Policy and Market Option (MESPT) Project** · *February 2023 – April 2024*
-
-- Conducted household surveys and key-informant interviews across multiple villages to collect information on farmer livelihoods and project outcomes.
-- Used structured data-collection tools while maintaining accuracy, completeness, research ethics and participant confidentiality.
-- Documented field observations and shared feedback that helped improve survey tools and field implementation.
+- Conducted household surveys and key-informant interviews across multiple villages to generate quantitative and qualitative evidence on farmer livelihoods, agricultural activities and project outcomes.
+- Coordinated field data-collection activities and used structured digital tools to support accurate, complete and timely data capture while observing research ethics and participant confidentiality.
+- Reviewed, cleaned and validated field data, documented inconsistencies and worked with research teams to address data-quality issues before analysis and reporting.
+- Contributed to monitoring and evaluation activities by organising project information, documenting field observations and preparing data summaries and reports to track implementation and emerging outcomes.
+- Engaged with farmers and project stakeholders, sharing field-level feedback and contextual insights to inform implementation decisions and improve survey tools and research processes.
 
 ### 🚜 Farm Manager
 **Mabanga ATC Farms** · *March 2022 – January 2023*
