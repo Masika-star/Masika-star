@@ -147,13 +147,13 @@ These projects show different stages of my work: a completed empirical analysis,
 My experience combines agricultural research, monitoring and evaluation, household-level data collection, field coordination and farm operations. The roles below are presented in reverse chronological order.
 
 ### 🔎 Research and M&E Analyst
-**Policy and Market Option (MESPT) Project** · *February 2023 – October 2024*
+**Policy and Market Option** · *February 2023 – October 2024*
 
-- Conducted household surveys and key-informant interviews across multiple villages to generate quantitative and qualitative evidence on farmer livelihoods, agricultural activities and project outcomes.
-- Coordinated field data-collection activities and used structured digital tools to support accurate, complete and timely data capture while observing research ethics and participant confidentiality.
-- Reviewed, cleaned and validated field data, documented inconsistencies and worked with research teams to address data-quality issues before analysis and reporting.
-- Contributed to monitoring and evaluation activities by organising project information, documenting field observations and preparing data summaries and reports to track implementation and emerging outcomes.
-- Engaged with farmers and project stakeholders, sharing field-level feedback and contextual insights to inform implementation decisions and improve survey tools and research processes.
+- Conducted desk research to support the development of research and monitoring and evaluation approaches, methodologies and reports.
+- Analysed quantitative and qualitative information from interviews, surveys and focus group discussions.
+- Supported the planning and coordination of agricultural research activities, including sampling, study scope and analytical frameworks.
+- Collected, organised, cleaned and checked data, following up on discrepancies to improve data quality.
+- Prepared presentations and shared findings with stakeholders to support discussions on programme activities and resource allocation; submitted regular field updates and maintained respectful working relationships with community members and local stakeholders.
 
 ### 🚜 Farm Manager
 **Mabanga ATC Farms** · *March 2022 – January 2023*
