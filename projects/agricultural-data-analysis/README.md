@@ -20,7 +20,7 @@ Annual Kenya maize yield observations for **1960–2010**, measured in kg/ha. Th
 01_load_real_data.R → 02_clean_data.R → 03_explore_data.R → 04_model.R → 05_export_results.R
 ```
 
-Run the complete workflow with:
+The workflow also exports a histogram of the yield distribution and a separate annual line graph from the same 51 observations.\n\nRun the complete workflow with:
 
 ```r
 source("projects/agricultural-data-analysis/R/00_run_analysis.R")
@@ -58,6 +58,8 @@ The estimate describes a historical association with time. It should not be inte
 - `outputs/tables/model_fit.csv`
 - `outputs/results.md`
 - `outputs/figures/maize_yield_trend.svg`
+- `outputs/figures/maize_yield_histogram.svg`
+- `outputs/figures/maize_yield_annual_line.svg`
 
 ### R skills demonstrated
 
