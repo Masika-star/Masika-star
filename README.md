@@ -90,7 +90,10 @@ These projects show different stages of my work: a completed empirical analysis,
   <tr>
     <td width="50%" valign="top">
       <h3>01 · Kenya maize-yield analysis</h3>
-      <p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_trend.svg" alt="Kenya maize yield trend chart" width="100%"></a></p>
+      <p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_trend.svg" alt="Kenya maize yield historical trend chart" width="100%"></a></p>
+      <p><strong>Additional views of the same 51 annual observations:</strong></p>
+      <p><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_histogram.svg" alt="Histogram showing the distribution of Kenya maize yield from 1960 to 2010" width="100%"></p>
+      <p><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_line.svg" alt="Annual line graph of Kenya maize yield from 1960 to 2010" width="100%"></p>
       <p><strong>Completed empirical analysis</strong></p>
       <p>Explores Kenya's annual maize-yield series from 1960 to 2010 using a reproducible R workflow.</p>
       <ul>
