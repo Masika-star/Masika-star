@@ -1,5 +1,5 @@
 # 06_visualize_distribution_and_trend.R
-# Generate two additional visualizations from the same Kenya maize-yield data.
+# Generate a year-by-year column chart and annual line graph from the same data.
 # Run this script from the repository root after the cleaning step.
 
 library(readr)
@@ -16,20 +16,21 @@ stopifnot(all(df$maize_yield_kg_ha > 0))
 
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
-# 1. Histogram: shows the distribution of annual yield observations.
-p_hist <- ggplot(df, aes(x = maize_yield_kg_ha)) +
-  geom_histogram(binwidth = 200, boundary = 1000,
-                 fill = "#2f855a", colour = "white") +
+# 1. Annual column chart: year on the x-axis and yield (kg/ha) on the y-axis.
+p_column <- ggplot(df, aes(x = year, y = maize_yield_kg_ha)) +
+  geom_col(width = 0.8, fill = "#2f855a") +
   labs(
-    title = "Distribution of Kenya maize yield, 1960–2010",
-    x = "Maize yield (kg/ha)",
-    y = "Number of years",
-    caption = "51 annual observations; histogram bin width = 200 kg/ha"
+    title = "Annual maize yield in Kenya, 1960–2010",
+    x = "Year",
+    y = "Maize yield (kg/ha)",
+    caption = "51 annual observations; yield measured in kg/ha"
   ) +
+  scale_x_continuous(breaks = seq(1960, 2010, by = 10)) +
+  scale_y_continuous(limits = c(0, 2200), breaks = seq(0, 2000, by = 500)) +
   theme_minimal(base_size = 12)
 
-ggsave(file.path(output_dir, "maize_yield_histogram.svg"),
-       p_hist, width = 9, height = 5.5, device = "svg")
+ggsave(file.path(output_dir, "maize_yield_annual_column.svg"),
+       p_column, width = 9, height = 5.5, device = "svg")
 
 # 2. Annual line graph: shows year-to-year movement in yield.
 p_line <- ggplot(df, aes(x = year, y = maize_yield_kg_ha)) +
@@ -47,4 +48,4 @@ p_line <- ggplot(df, aes(x = year, y = maize_yield_kg_ha)) +
 ggsave(file.path(output_dir, "maize_yield_annual_line.svg"),
        p_line, width = 9, height = 5.5, device = "svg")
 
-message("Histogram and annual line graph exported to ", output_dir)
+message("Annual column chart and line graph exported to ", output_dir)
