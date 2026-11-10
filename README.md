@@ -215,7 +215,7 @@ Restricted or confidential farmer-level data are not published in this portfolio
 I welcome opportunities for research collaboration, agricultural data analysis, field research, monitoring and evaluation, and evidence-based work on food systems and rural development.
 
 <p align="center">
-  📍 Nairobi, Kenya &nbsp;·&nbsp; 📞 <a href="tel:+254797810541">+254 797 810 541</a>
+  📍 Nairobi, Kenya
 </p>
 
 <p align="center">
