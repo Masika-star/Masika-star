@@ -166,7 +166,7 @@ My experience combines agricultural research, monitoring and evaluation, househo
 - Monitored crop health and product quality and supported sustainable waste-recycling practices.
 
 ### 🌱 Agricultural Intern
-**Ministry of Agriculture, Kimilili Sub-County** · *March 2021 – August 2021*
+**Ministry of Agriculture, Kimilili Sub-County** · *April 2021 – December 2021*
 
 - Supported agricultural extension and field-monitoring activities with smallholder farmers and accompanied agricultural officers during field visits.
 - Organised agricultural information in Microsoft Excel and prepared data summaries and reports to support departmental planning and farmer-facing activities.
