@@ -150,7 +150,7 @@ These projects show different stages of my work: a completed empirical analysis,
 My experience combines agricultural research, monitoring and evaluation, household-level data collection, field coordination and farm operations. The roles below are presented in reverse chronological order.
 
 ### 🔎 Research and M&E Analyst
-**Policy and Market Option** · *February 2023 – October 2024*
+**Policy and Market Option** · *February 2023 – June 2024*
 
 - Conducted desk research to support the development of research and monitoring and evaluation approaches, methodologies and reports.
 - Analysed quantitative and qualitative information from interviews, surveys and focus group discussions.
