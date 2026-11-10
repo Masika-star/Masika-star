@@ -13,8 +13,7 @@ All experience, education, training and project claims below are based on the po
 
 <p align="center">
   <strong>📍 Nairobi, Kenya</strong> &nbsp;·&nbsp;
-  <a href="mailto:joshuamasika@hotmail.com">joshuamasika@hotmail.com</a> &nbsp;·&nbsp;
-  <a href="tel:+254797810541">+254 797 810 541</a>
+  <a href="mailto:joshuamasika@hotmail.com">joshuamasika@hotmail.com</a>
 </p>
 
 <p align="center">
