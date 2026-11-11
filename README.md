@@ -13,7 +13,8 @@ All experience, education, training and project claims below are based on the po
 
 <p align="center">
   <strong>📍 Nairobi, Kenya</strong> &nbsp;·&nbsp;
-  <a href="mailto:joshuamasika@hotmail.com">joshuamasika@hotmail.com</a>
+  <a href="https://www.linkedin.com/in/joshua-masika-47b793215/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:joshuamasika@hotmail.com">Email</a>
 </p>
 
 <p align="center">
