@@ -66,8 +66,8 @@ annual_growth_pct <- 100 * (exp(slope) - 1)
 annual_growth_ci_low <- 100 * (exp(slope_ci$conf_low) - 1)
 annual_growth_ci_high <- 100 * (exp(slope_ci$conf_high) - 1)
 
-residuals <- residuals(trend_model)
-durbin_watson <- sum(diff(residuals)^2) / sum(residuals^2)
+trend_residuals <- residuals(trend_model)
+durbin_watson <- sum(diff(trend_residuals)^2) / sum(trend_residuals^2)
 
 model_fit <- tibble(
   observations = nobs(trend_model),
