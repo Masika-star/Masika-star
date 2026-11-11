@@ -132,7 +132,7 @@ results_lines <- c(
   "",
   "## 5. Drought episodes and annual yield movements",
   "",
-  "Kenyan climate and agricultural risk sources document major drought periods including 1983–1984, 1991–1993, 1999–2000 and 2007–2009. Later assessments also record the 2016–2017 dry conditions and the five consecutive failed rainy seasons between late 2020 and early 2023. These are used as contextual periods in the charts, not as causal variables.",
+  "Kenyan climate and agricultural risk sources document major drought periods including 1983–1984, 1991–1993, 1999–2000 and 2007–2009. The KNBS 2018 Economic Survey attributes depressed crop performance in 2017 to dry weather, while the Kenya Meteorological Department reports that the beginning of 2023 followed five consecutive failed rainy seasons since November 2020. These periods are used as contextual overlays in the charts, not as causal variables.",
   "",
   "| Drought episode context | Yield year | Yield (kg/ha) | Change from previous year |",
   "|---|---:|---:|---:|",
@@ -165,6 +165,7 @@ results_lines <- c(
   "FAO agricultural production release (2010–2024): https://www.fao.org/statistics/highlights-archive/highlights-detail/agricultural-production-statistics-2010-2024/en  ",
   "World Bank, Kenya Agricultural Sector Risk Assessment: https://documents1.worldbank.org/curated/en/294711467992513646/pdf/97887-REVISED-WP-P148139-PUBLIC-Box393257B-Kenya-Agricultural-Sector-Risk-Assessment.pdf  ",
   "World Bank, Kenya Country Environmental Analysis: https://kcckp.go.ke/api/media/file/Kenya-Country-Environmental-Analysis-1.pdf  ",
+  "Kenya National Bureau of Statistics, Economic Survey 2018: https://www.knbs.or.ke/wp-content/uploads/2023/09/2018-Economic-Survey.pdf  ",
   "Kenya Meteorological Department, State of the Climate Kenya 2023: https://meteo.go.ke/documents/802/SoC_Kenya_2023_1.pdf",
   ""
 )
