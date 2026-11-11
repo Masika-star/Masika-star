@@ -46,10 +46,23 @@ These projects show different stages of my work: a completed empirical analysis,
   <tr>
     <td width="100%" valign="top">
       <h3>01 · Kenya maize-yield analysis</h3>
-      <p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_trend.svg" alt="Kenya maize yield historical trend chart" width="100%"></a></p>
-      <p><strong>Additional views of the same 51 annual observations:</strong></p>
-      <p><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_column.svg" alt="Annual column chart of Kenya maize yield from 1960 to 2010" width="100%"></p>
-      <p><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_line.svg" alt="Annual line graph of Kenya maize yield from 1960 to 2010" width="100%"></p>
+      <p><strong>Three views of the same 51 annual observations</strong></p>
+      <table width="100%">
+        <tr>
+          <td width="33.33%" align="center" valign="top">
+            <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_trend.svg" alt="Kenya maize yield trend chart" width="100%"></a>
+            <sub><strong>Yield trend</strong></sub>
+          </td>
+          <td width="33.33%" align="center" valign="top">
+            <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_column.svg" alt="Annual Kenya maize yield column chart" width="100%"></a>
+            <sub><strong>Annual columns</strong></sub>
+          </td>
+          <td width="33.33%" align="center" valign="top">
+            <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_line.svg" alt="Annual Kenya maize yield line chart" width="100%"></a>
+            <sub><strong>Annual line</strong></sub>
+          </td>
+        </tr>
+      </table>
       <p><strong>Completed empirical analysis</strong></p>
       <p>Explores Kenya's annual maize-yield series from 1960 to 2010 using a reproducible R workflow.</p>
       <ul>
