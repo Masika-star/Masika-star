@@ -28,58 +28,6 @@ All experience, education, training and project claims below are based on the po
 
 ---
 
-## About me
-
-I am an agricultural economics professional and postgraduate researcher based in **Nairobi, Kenya**, with more than four years of experience across agricultural research and monitoring, household surveys, farmer engagement, field coordination and agricultural operations.
-
-I hold a **BSc in Agricultural Economics and Resource Management from Maasai Mara University** and am currently pursuing an **MSc in Agricultural Economics at Chuka University**.
-
-My work brings together agricultural research, field experience and data analysis. I am interested in understanding how farming practices, production decisions and institutional support influence smallholder livelihoods and household food security. I use tools such as Stata, Excel and KoboToolbox in research and fieldwork, and I am building my R programming and reproducible research skills through practical, documented projects.
-
-**Current research focus:** Effects of Agroecological Practice Bundles on Household Food Security among Smallholder Maize Farmers in Kimilili Sub-County, Bungoma County, Kenya.
-
-## Research interests
-
-<p>
-  <img src="https://img.shields.io/badge/Agroecology-2e7d32?style=flat-square" alt="Agroecology">
-  <img src="https://img.shields.io/badge/Smallholder%20Farming-558b2f?style=flat-square" alt="Smallholder farming">
-  <img src="https://img.shields.io/badge/Food%20Security-00796b?style=flat-square" alt="Food security">
-  <img src="https://img.shields.io/badge/Agricultural%20Policy-546e7a?style=flat-square" alt="Agricultural policy">
-  <img src="https://img.shields.io/badge/Applied%20Econometrics-1565c0?style=flat-square" alt="Applied econometrics">
-  <img src="https://img.shields.io/badge/Rural%20Development-6d4c41?style=flat-square" alt="Rural development">
-</p>
-
-- Agricultural and food systems research
-- Agroecological practices and sustainable farming systems
-- Smallholder production, livelihoods and agricultural markets
-- Household food security and production diversity
-- Agricultural extension and technology adoption
-- Applied statistics, econometrics and impact evaluation
-
-## Technical toolkit
-
-My current toolkit combines statistical software, field data-collection platforms and research workflow tools. R and Git/GitHub are areas of active development.
-
-| Area | Tools and capabilities |
-|---|---|
-| Statistical analysis | Stata 15; R (foundational programming and tidyverse data workflows) |
-| Data management | Microsoft Excel; data cleaning, validation and organisation |
-| Data collection | KoboToolbox / KoboCollect; ODK; structured household surveys |
-| Research methods | Quantitative and qualitative data; household surveys; key-informant interviews; focus group discussions |
-| Research workflow | RStudio Projects; organised data, code and output folders; Git and GitHub |
-| Literature and reporting | Zotero; Google Scholar; ResearchGate; Microsoft Word and PowerPoint |
-| Other statistical tools | IBM SPSS |
-
-<p align="center">
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R">
-  <img src="https://img.shields.io/badge/Stata-1A5F91?style=for-the-badge" alt="Stata">
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel">
-  <img src="https://img.shields.io/badge/KoboToolbox-5A9A3B?style=for-the-badge" alt="KoboToolbox">
-  <img src="https://img.shields.io/badge/ODK-3F7F6F?style=for-the-badge" alt="ODK">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  <img src="https://img.shields.io/badge/Zotero-CC2936?style=for-the-badge&logo=zotero&logoColor=white" alt="Zotero">
-</p>
 
 ## Featured projects
 
@@ -141,37 +89,63 @@ These projects show different stages of my work: a completed empirical analysis,
 
 <p>Additional research frameworks are documented separately in the <a href="projects/">Projects folder</a>.</p>
 
+## About me
+
+I am an agricultural economics professional and postgraduate researcher based in **Nairobi, Kenya**, with more than four years of experience across agricultural research and monitoring, household surveys, farmer engagement, field coordination and agricultural operations.
+
+I hold a **BSc in Agricultural Economics and Resource Management from Maasai Mara University** and am currently pursuing an **MSc in Agricultural Economics at Chuka University**.
+
+My work brings together agricultural research, field experience and data analysis. I am interested in understanding how farming practices, production decisions and institutional support influence smallholder livelihoods and household food security. I use tools such as Stata, Excel and KoboToolbox in research and fieldwork, and I am building my R programming and reproducible research skills through practical, documented projects.
+
+**Current research focus:** Effects of Agroecological Practice Bundles on Household Food Security among Smallholder Maize Farmers in Kimilili Sub-County, Bungoma County, Kenya.
+
+## Research interests
+
+<p>
+  <img src="https://img.shields.io/badge/Agroecology-2e7d32?style=flat-square" alt="Agroecology">
+  <img src="https://img.shields.io/badge/Smallholder%20Farming-558b2f?style=flat-square" alt="Smallholder farming">
+  <img src="https://img.shields.io/badge/Food%20Security-00796b?style=flat-square" alt="Food security">
+  <img src="https://img.shields.io/badge/Agricultural%20Policy-546e7a?style=flat-square" alt="Agricultural policy">
+  <img src="https://img.shields.io/badge/Applied%20Econometrics-1565c0?style=flat-square" alt="Applied econometrics">
+  <img src="https://img.shields.io/badge/Rural%20Development-6d4c41?style=flat-square" alt="Rural development">
+</p>
+
+- Agricultural and food systems research
+- Agroecological practices and sustainable farming systems
+- Smallholder production, livelihoods and agricultural markets
+- Household food security and production diversity
+- Agricultural extension and technology adoption
+- Applied statistics, econometrics and impact evaluation
+
+## Technical toolkit
+
+My current toolkit combines statistical software, field data-collection platforms and research workflow tools. R and Git/GitHub are areas of active development.
+
+| Area | Tools and capabilities |
+|---|---|
+| Statistical analysis | Stata 15; R (foundational programming and tidyverse data workflows) |
+| Data management | Microsoft Excel; data cleaning, validation and organisation |
+| Data collection | KoboToolbox / KoboCollect; ODK; structured household surveys |
+| Research methods | Quantitative and qualitative data; household surveys; key-informant interviews; focus group discussions |
+| Research workflow | RStudio Projects; organised data, code and output folders; Git and GitHub |
+| Literature and reporting | Zotero; Google Scholar; ResearchGate; Microsoft Word and PowerPoint |
+| Other statistical tools | IBM SPSS |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R">
+  <img src="https://img.shields.io/badge/Stata-1A5F91?style=for-the-badge" alt="Stata">
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel">
+  <img src="https://img.shields.io/badge/KoboToolbox-5A9A3B?style=for-the-badge" alt="KoboToolbox">
+  <img src="https://img.shields.io/badge/ODK-3F7F6F?style=for-the-badge" alt="ODK">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/Zotero-CC2936?style=for-the-badge&logo=zotero&logoColor=white" alt="Zotero">
+</p>
+
+
 ## Professional Experience
 
-My experience combines agricultural research, monitoring and evaluation, household-level data collection, field coordination and farm operations. The roles below are presented in reverse chronological order.
-
-### 🔎 Research and M&E Analyst
-**Policy and Market Option** · *February 2023 – June 2024*
-
-- Conducted desk research to support the development of research and monitoring and evaluation approaches, methodologies and reports.
-- Analysed quantitative and qualitative information from interviews, surveys and focus group discussions.
-- Supported the planning and coordination of agricultural research activities, including sampling, study scope and analytical frameworks.
-- Collected, organised, cleaned and checked data, following up on discrepancies to improve data quality.
-- Prepared presentations and shared findings with stakeholders to support discussions on programme activities and resource allocation; submitted regular field updates and maintained respectful working relationships with community members and local stakeholders.
-
-### 🚜 Farm Manager
-**Mabanga ATC Farms** · *March 2022 – January 2023*
-
-- Coordinated crop and livestock farm operations, including equipment maintenance, labour planning, and the recruitment and supervision of seasonal workers during cultivation and harvest.
-- Maintained farm activity records and supported purchasing, marketing and customer relations.
-- Monitored crop health and product quality and supported sustainable waste-recycling practices.
-
-### 🌱 Agricultural Intern
-**Ministry of Agriculture, Kimilili Sub-County** · *April 2021 – December 2021*
-
-- Supported agricultural extension and field-monitoring activities with smallholder farmers and accompanied agricultural officers during field visits.
-- Organised agricultural information in Microsoft Excel and prepared data summaries and reports to support departmental planning and farmer-facing activities.
-
-### 🏠 Census Enumerator
-**Kenya National Bureau of Statistics (KNBS)** · *August 2019*
-
-- Conducted household visits and interviews to collect demographic and household information, following standard enumeration procedures and data-quality requirements.
-
+For my roles in agricultural research and M&E, farm management, agricultural extension and household enumeration, [view my professional experience](experience/).
 
 ## Education and professional development
 
