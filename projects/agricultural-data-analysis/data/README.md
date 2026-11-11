@@ -13,7 +13,7 @@
 
 **Units:** The FAOSTAT bulk file reports crop yield in hectograms per hectare (`hg/ha`). The project snapshot is expressed in kilograms per hectare (`kg/ha`), using `kg/ha = hg/ha ÷ 10`.
 
-**Snapshot note:** The CSV is a compact, analysis-ready national time-series extract. It omits the full QCL file's other countries, commodities, elements and source-flag fields. The original full FAOSTAT archive can be downloaded using the optional refresh setting in `R/01_load_real_data.R`.
+**Snapshot note:** The committed CSV is a compact, analysis-ready Kenya extract prepared from a public FAOSTAT-derived QCL data file. It omits other countries, commodities, elements and the full archive's source-flag fields. To refresh the working extract directly from the official FAOSTAT normalized QCL bulk archive, set `refresh_from_faostat <- TRUE` in `R/01_load_real_data.R`; the script filters Kenya, Maize (corn), Yield and converts hg/ha to kg/ha.
 
 **Licence:** FAOSTAT statistical data are made available under CC BY 4.0. Attribute the source to the Food and Agriculture Organization of the United Nations (FAO).
 
