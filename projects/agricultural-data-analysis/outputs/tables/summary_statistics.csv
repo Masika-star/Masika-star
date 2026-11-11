@@ -1,2 +1,2 @@
-n,start_year,end_year,mean_yield_kg_ha,median_yield_kg_ha,min_yield_kg_ha,max_yield_kg_ha,sd_yield_kg_ha
-51,1960,2010,1528.7353,1512.6,1071.3,2071.2,266.0982
+n,start_year,end_year,mean_yield_kg_ha,median_yield_kg_ha,min_yield_kg_ha,min_year,max_yield_kg_ha,max_year,sd_yield_kg_ha
+64,1961,2024,1552.2578,1569.3,1071.3,1965,2071.2,1982,248.3312
