@@ -106,8 +106,8 @@ These projects show different stages of my work: a completed empirical analysis,
     <td width="50%" valign="top">
       <h3>02 · Agroecological practice adoption</h3>
       <p><a href="https://github.com/Masika-star/agroecological-practice-adoption"><img src="https://img.shields.io/badge/R%20project-Exploratory%20analysis-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R exploratory project"></a></p>
-      <p><strong>Ongoing exploratory analysis · Burkina Faso case study</strong></p>
-      <p>An R learning and research project exploring farm-level agroecological indicators in a multi-country African dataset. Recent work has moved from data auditing into correlation and simple linear regression using 98 Burkina Faso farm observations.</p>
+      <p><strong>Ongoing exploratory analysis · Agroecological Practice Adoption among Smallholder Farmers</strong></p>
+      <p>An R learning and research project, *Agroecological Practice Adoption among Smallholder Farmers: An Exploratory Analysis in R*, using the Viability of Agroecological Practices in Africa dataset. Recent work has moved from data auditing into correlation and simple linear regression using 98 farm observations.</p>
       <ul>
         <li><strong>Data preparation:</strong> removed 18 entirely empty columns from a working copy, retaining 98 farms and 28 variables; the original dataset remains unchanged.</li>
         <li><strong>Correlation:</strong> Pearson's r = -0.0423 (p = 0.679), showing negligible and statistically insignificant linear association between organic matter produced per cultivated hectare and the proportion of cultivated area fertilised with organic manure.</li>
@@ -121,7 +121,7 @@ These projects show different stages of my work: a completed empirical analysis,
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3>03 · MSc research: practice bundles and food security</h3>
       <p><img src="https://img.shields.io/badge/MSc%20research-In%20development-8a6d3b?style=for-the-badge" alt="MSc research in development"></p>
       <p><strong>Postgraduate research project · Kimilili, Kenya</strong></p>
@@ -134,18 +134,11 @@ These projects show different stages of my work: a completed empirical analysis,
       <p><em>Research framework and analytical plan under development; no empirical results are claimed here.</em></p>
       <p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agroecology-food-security">Research framework →</a></p>
     </td>
-    <td width="50%" valign="top">
-      <h3>04 · Additional research frameworks</h3>
-      <p><strong>Concept development</strong></p>
-      <p>I am also outlining research workflows on related agricultural and development questions:</p>
-      <ul>
-        <li><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/climate-smart-poultry">Climate-smart agriculture, poultry productivity and household income</a>.</li>
-        <li><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/impact-evaluation">Impact evaluation of agricultural and development interventions</a>.</li>
-      </ul>
-      <p><em>These are developing research concepts, not completed empirical studies.</em></p>
-    </td>
+
   </tr>
 </table>
+
+<p>Additional research frameworks are documented separately in the <a href="projects/">Projects folder</a>.</p>
 
 ## Professional Experience
 
