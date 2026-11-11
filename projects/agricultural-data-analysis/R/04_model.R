@@ -58,6 +58,20 @@ write_csv(
   file.path(table_dir, "trend_model_coefficients.csv")
 )
 
+# Keep the original compact trend table name in sync with the HAC model.
+trend_compatibility <- trend_coefficients |>
+  transmute(
+    term,
+    estimate,
+    robust_se = hac_se,
+    statistic = t_statistic,
+    p_value
+  )
+write_csv(
+  trend_compatibility,
+  file.path(table_dir, "trend_model.csv")
+)
+
 slope <- unname(beta[["year_index"]])
 slope_ci <- trend_coefficients |>
   filter(term == "year_index")
