@@ -1,6 +1,6 @@
 # 05_export_results.R
-# Export model tables and a detailed, reproducible interpretation of the
-# 1961–2024 Kenya maize-yield time series.
+# Export model tables and a detailed interpretation of the 1961–2024
+# Kenya maize-yield time series. Run after 03_explore_data.R and 04_model.R.
 
 library(readr)
 library(dplyr)
@@ -45,14 +45,8 @@ annual_rate_p <- fit$annual_growth_p_value[[1]]
 drought_context <- tibble(
   year = c(1984, 1993, 2000, 2008, 2009, 2016, 2021, 2022),
   drought_episode = c(
-    "1983–1984",
-    "1991–1993",
-    "1999–2000",
-    "2007–2009",
-    "2007–2009",
-    "2016–2017",
-    "2020–2023",
-    "2020–2023"
+    "1983–1984", "1991–1993", "1999–2000", "2007–2009",
+    "2007–2009", "2016–2017", "2020–2023", "2020–2023"
   )
 )
 
@@ -66,64 +60,79 @@ write_csv(
 )
 
 results_lines <- c(
-  "# Analytical results",
+  "# Kenya maize-yield trend analysis",
   "",
-  sprintf("## Kenya maize yield, %d–%d", min(df$year), max(df$year)),
+  "## 1. Data and research question",
   "",
   sprintf(
-    "The series contains **%d annual observations**. Mean yield was **%s kg/ha** and median yield was **%s kg/ha**.",
-    nrow(df), fmt(summary$mean_yield_kg_ha), fmt(summary$median_yield_kg_ha)
+    "This descriptive time-series analysis examines annual maize yield in Kenya over %d–%d, using %d observations.",
+    min(df$year), max(df$year), nrow(df)
   ),
+  "The question is whether national maize yield has followed a sustained long-run trend, how the trend changes over time, and whether major documented drought episodes coincide with pronounced annual movements.",
+  "",
+  "The series is FAOSTAT's Crops and livestock products (QCL) item Maize (corn), element Yield, area Kenya. FAOSTAT records yield in hectograms per hectare; the project stores kilograms per hectare after dividing by ten. The current QCL catalogue covers 1961–2024. The previous portfolio extract contained the same first 51 yield values but labelled them 1960–2010; the year labels have been corrected to 1961–2011 and the series extended through 2024.",
+  "",
+  "## 2. Descriptive evidence",
+  "",
+  "| Measure | Result |",
+  "|---|---:|",
+  sprintf("| Annual observations | %d |", nrow(df)),
+  sprintf("| Period | %d–%d |", min(df$year), max(df$year)),
+  sprintf("| Mean yield | %s kg/ha |", fmt(summary$mean_yield_kg_ha, 1)),
+  sprintf("| Median yield | %s kg/ha |", fmt(summary$median_yield_kg_ha, 1)),
+  sprintf("| Standard deviation | %s kg/ha |", fmt(summary$sd_yield_kg_ha, 1)),
+  sprintf("| Minimum | %s kg/ha (%d) |", fmt(summary$min_yield_kg_ha, 1), summary$min_year),
+  sprintf("| Maximum | %s kg/ha (%d) |", fmt(summary$max_yield_kg_ha, 1), summary$max_year),
+  "",
+  "The 2024 yield was 1,666.2 kg/ha, down 5.5% from 1,763.4 kg/ha in 2023. The full-period endpoint comparison is positive, but annual performance is volatile and the endpoint difference alone does not describe the intervening path.",
+  "",
+  "## 3. Log-linear trend model",
+  "",
+  "The main specification is:",
+  "",
+  "log(yield_t) = alpha + beta * (year_t - 1961) + error_t",
+  "",
   sprintf(
-    "The minimum was **%s kg/ha** in %d and the maximum was **%s kg/ha** in %d.",
-    fmt(summary$min_yield_kg_ha), summary$min_year,
-    fmt(summary$max_yield_kg_ha), summary$max_year
-  ),
-  "",
-  "## Log-linear trend",
-  "",
-  "log(yield) = alpha + beta * (year - 1961) + error",
-  "",
-  sprintf(
-    "The estimated coefficient on year is **%s log points per year** (Newey–West HAC SE = %s; p = %s).",
+    "The estimated time coefficient is %s log points per year (Newey–West HAC SE = %s; p = %s).",
     fmt(slope_row$estimate, 5), fmt(slope_row$hac_se, 5),
     format.pval(annual_rate_p, digits = 3)
   ),
   sprintf(
-    "The exact transformed annual rate is **%s%%** (95%% HAC CI: %s%% to %s%%).",
-    fmt(annual_rate, 3), fmt(annual_rate_low, 3),
-    fmt(annual_rate_high, 3)
+    "Transforming the coefficient gives an estimated annual growth rate of **%s%%**: 100 × [exp(beta) − 1]. Its 95%% HAC confidence interval is **%s%% to %s%%**.",
+    fmt(annual_rate, 3), fmt(annual_rate_low, 3), fmt(annual_rate_high, 3)
   ),
   sprintf(
-    "The model R-squared is **%s**. The Durbin–Watson statistic is **%s**, indicating positive serial correlation in the residuals.",
+    "The model R-squared is %s and the Durbin–Watson statistic is %s.",
     fmt(fit$r_squared, 3), fmt(fit$durbin_watson, 2)
   ),
   "",
-  "The log-linear slope is interpreted as 100 * (exp(beta) - 1), rather than simply multiplying beta by 100. Newey–West standard errors with three annual lags are used for inference because annual yield observations can be heteroskedastic and serially correlated. HAC standard errors adjust inference; they do not remove the underlying persistence in the series.",
+  "The coefficient is therefore an average multiplicative trend, not a constant increase in kilograms per hectare. The approximate interpretation is a 0.49% increase in yield per year over the full period. The exact percentage transformation is used because the dependent variable is in logarithms.",
   "",
-  "## One-break structural-change screen",
+  "Newey–West standard errors with three annual lags are used to make inference more robust to heteroskedasticity and short-run serial correlation. The Durbin–Watson statistic below one indicates that residual persistence remains substantial; HAC inference adjusts estimated uncertainty but does not itself model the dynamic process. The single-trend model should therefore be treated as a parsimonious summary, not a complete time-series description.",
+  "",
+  "## 4. Structural-change screen",
   "",
   sprintf(
-    "A one-break segmented trend search, requiring at least %d observations on each side and selecting the breakpoint by BIC, identifies **%d** as the first year of the second segment.",
+    "A one-break segmented trend search, requiring at least %d annual observations on each side and selecting the candidate with the lowest BIC, selects **%d** as the first year of the second segment.",
     break_selection$minimum_segment_observations, selected_break
   ),
   sprintf(
-    "The one-break model has BIC **%s**, compared with **%s** for the no-break trend (difference = %s).",
+    "The one-break BIC is %s, compared with %s for the no-break model (one-break minus no-break = %s).",
     fmt(break_selection$one_break_bic, 2),
     fmt(break_selection$no_break_bic, 2),
     fmt(break_selection$bic_difference_one_break_minus_no_break, 2)
   ),
   sprintf(
-    "The estimated pre-break annual trend is **%s%%** (HAC p = %s); the post-break trend is **%s%%** (HAC p = %s).",
+    "The estimated pre-break trend is %s%% per year (HAC p = %s), while the post-break trend is %s%% per year (HAC p = %s).",
     fmt(pre$annual_growth_pct, 3), format.pval(pre$p_value, digits = 3),
     fmt(post$annual_growth_pct, 3), format.pval(post$p_value, digits = 3)
   ),
   "",
-  "The breakpoint is selected from the yield series itself. It is a statistical indication of a change in trend, not proof of a specific policy change, drought, or other causal event. The search is exploratory and its confidence intervals do not account for breakpoint-selection uncertainty. The selected year also coincides with the series maximum, so sensitivity to influential observations deserves further examination.",
+  "The breakpoint is selected by the yield data, not imposed from an external chronology. It is a statistical indication of a change in trend, not proof of a specific policy shift, drought, conflict, or technology transition. It also coincides with the series maximum in 1982. The estimated change should be considered provisional because breakpoint searching creates selection uncertainty not reflected in the ordinary HAC intervals. Sensitivity to influential years and alternative break specifications should be assessed before making a strong historical claim.",
   "",
-  "## Drought episodes and annual yield movements",
+  "## 5. Drought episodes and annual yield movements",
   "",
-  "Kenya's agricultural risk literature documents drought episodes including 1983–1984, 1991–1993, 1999–2000, 2007–2009, 2016–2017 and 2020–2023. The years below show selected annual movements in the national maize-yield series:",
+  "Kenyan climate and agricultural risk sources document major drought periods including 1983–1984, 1991–1993, 1999–2000 and 2007–2009. Later assessments also record the 2016–2017 dry conditions and the five consecutive failed rainy seasons between late 2020 and early 2023. These are used as contextual periods in the charts, not as causal variables.",
   "",
   "| Drought episode context | Yield year | Yield (kg/ha) | Change from previous year |",
   "|---|---:|---:|---:|",
@@ -135,26 +144,28 @@ results_lines <- c(
     vapply(drought_table$annual_change_pct, fmt, character(1), digits = 1)
   ),
   "",
-  "The temporal overlap between drought episodes and yield declines is descriptive evidence only. National annual yield combines different agroecological zones and seasons; not every drought year produces a national decline, and a decline cannot be attributed to drought without linking yield to rainfall or other weather measures at an appropriate spatial and seasonal scale.",
+  "Large falls are visible in 1984, 2008–2009 and 2016, while the 2021–2022 observations also declined. Yet the national aggregate does not fall in every drought year or across every drought period. This is plausible because drought exposure differs by location, season and crop calendar, and the national estimate combines high-potential maize zones with drier areas. The series alone cannot establish that drought caused a given annual yield change.",
   "",
-  "## Interpretation and limitations",
+  "A stronger drought-impact analysis would merge yield with seasonal rainfall anomalies or drought indices at a matching spatial scale, ideally using county-level or agroecological-zone outcomes. The current national annual series does not contain those covariates.",
   "",
-  "The full-period model suggests a modest positive long-run average growth rate, but it should not be read as a smooth or uninterrupted improvement. The selected break indicates that the average trajectory changed during the series, while the drought chronology helps contextualise some pronounced annual falls.",
+  "## 6. Interpretation and limitations",
   "",
-  "This is a national-level, single-crop time series. It cannot identify the contribution of rainfall, improved seed, fertiliser, soil conditions, pests, prices, policy, harvested-area composition or farm-management choices. It masks regional and seasonal differences, and its annual observations exhibit serial dependence. The selected one-break model is a useful diagnostic rather than a definitive structural-break test. A stronger explanatory analysis would add rainfall anomalies, input-use and policy variables, examine additional breaks with formal procedures, and test alternative HAC lag choices.",
+  "The evidence supports a modest positive average long-run trend over 1961–2024, but not a smooth or uninterrupted rise in productivity. The full-period log-linear slope masks important changes in trajectory and substantial year-to-year volatility. The BIC-selected break suggests that one average growth rate may not adequately represent the entire 64-year series.",
   "",
-  "## Data and reproducibility",
+  "The analysis is descriptive and national-level. It cannot isolate effects of rainfall, seed varieties, fertiliser use, soil conditions, pests and disease, policy, prices, irrigation, harvested-area composition or farm-management decisions. It also masks differences among counties, seasons and smallholder production systems. Persistent residuals suggest that future modelling should consider richer dynamic specifications, robustness to HAC lag choices, formal multiple-break tests and alternative time windows.",
   "",
-  sprintf(
-    "The analysis uses FAOSTAT's Crops and livestock products (QCL) series for Kenya, Maize (corn), Element = Yield, covering %d–%d. FAOSTAT reports yield in hg/ha; the project stores kg/ha after division by 10.",
-    min(df$year), max(df$year)
-  ),
+  "The structural break should be described as a data-selected regime change, not labelled as a drought event. Drought periods are separately overlaid from external climate and risk documentation. Temporal coincidence between a drought and a fall in yield is not causal attribution.",
   "",
-  "The former portfolio extract contained the same first 51 values but labelled them one year early (1960–2010). This update corrects those labels to the FAOSTAT reference years (1961–2011) and adds observations through 2024.",
+  "## 7. Data sources and reproducibility",
   "",
-  "FAOSTAT: https://www.fao.org/faostat/en/#data/QCL  ",
-  "Dataset catalogue: https://data.fao.org/catalog/iso/d24a448b-3b62-4c09-8c1d-4a39bb599876  ",
-  "FAO release: https://www.fao.org/statistics/highlights-archive/highlights-detail/agricultural-production-statistics-2010-2024/en",
+  "The data snapshot and scripts are stored in this repository. The data loader uses the committed CSV by default and contains an optional refresh setting for downloading the official FAOSTAT normalized QCL bulk file. Verify the current FAOSTAT bulk archive and schema when refreshing the data.",
+  "",
+  "FAOSTAT QCL: https://www.fao.org/faostat/en/#data/QCL  ",
+  "FAOSTAT QCL catalogue (1961–2024, yield in hg/ha): https://data.fao.org/catalog/iso/d24a448b-3b62-4c09-8c1d-4a39bb599876  ",
+  "FAO agricultural production release (2010–2024): https://www.fao.org/statistics/highlights-archive/highlights-detail/agricultural-production-statistics-2010-2024/en  ",
+  "World Bank, Kenya Agricultural Sector Risk Assessment: https://documents1.worldbank.org/curated/en/294711467992513646/pdf/97887-REVISED-WP-P148139-PUBLIC-Box393257B-Kenya-Agricultural-Sector-Risk-Assessment.pdf  ",
+  "World Bank, Kenya Country Environmental Analysis: https://kcckp.go.ke/api/media/file/Kenya-Country-Environmental-Analysis-1.pdf  ",
+  "Kenya Meteorological Department, State of the Climate Kenya 2023: https://meteo.go.ke/documents/802/SoC_Kenya_2023_1.pdf",
   ""
 )
 
