@@ -87,7 +87,7 @@ These projects show different stages of my work: a completed empirical analysis,
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3>01 · Kenya maize-yield analysis</h3>
       <p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_trend.svg" alt="Kenya maize yield historical trend chart" width="100%"></a></p>
       <p><strong>Additional views of the same 51 annual observations:</strong></p>
@@ -103,11 +103,13 @@ These projects show different stages of my work: a completed empirical analysis,
       <p><strong>Modelled trend:</strong> approximately 10.26 kg/ha per year. This is a historical association with time, not a causal estimate.</p>
       <p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis">Project details and code →</a></p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
       <h3>02 · Agroecological practice adoption</h3>
       <p><a href="https://github.com/Masika-star/agroecological-practice-adoption"><img src="https://img.shields.io/badge/R%20project-Exploratory%20analysis-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R exploratory project"></a></p>
       <p><strong>Ongoing exploratory analysis · Agroecological Practice Adoption among Smallholder Farmers</strong></p>
-      <p>An R learning and research project, *Agroecological Practice Adoption among Smallholder Farmers: An Exploratory Analysis in R*, using the Viability of Agroecological Practices in Africa dataset. Recent work has moved from data auditing into correlation and simple linear regression using 98 farm observations.</p>
+      <p>An R learning and research project, <em>Agroecological Practice Adoption among Smallholder Farmers: An Exploratory Analysis in R</em>, using the Viability of Agroecological Practices in Africa dataset. Recent work has moved from data auditing into correlation and simple linear regression using 98 farm observations.</p>
       <ul>
         <li><strong>Data preparation:</strong> removed 18 entirely empty columns from a working copy, retaining 98 farms and 28 variables; the original dataset remains unchanged.</li>
         <li><strong>Correlation:</strong> Pearson's r = -0.0423 (p = 0.679), showing negligible and statistically insignificant linear association between organic matter produced per cultivated hectare and the proportion of cultivated area fertilised with organic manure.</li>
@@ -134,7 +136,6 @@ These projects show different stages of my work: a completed empirical analysis,
       <p><em>Research framework and analytical plan under development; no empirical results are claimed here.</em></p>
       <p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agroecology-food-security">Research framework →</a></p>
     </td>
-
   </tr>
 </table>
 
