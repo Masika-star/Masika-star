@@ -1,2 +1,2 @@
-n,r_squared,adj_r_squared
-51,0.328488,0.314784
+observations,first_year,last_year,r_squared,adjusted_r_squared,residual_standard_error,durbin_watson,annual_growth_pct,annual_growth_ci_low_pct,annual_growth_ci_high_pct,annual_growth_p_value
+64,1961,2024,0.3071426,0.2959675,0.1373033,0.9296869,0.4882664,0.2341729,0.7430041,0.0002860973
