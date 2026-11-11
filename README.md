@@ -106,14 +106,17 @@ These projects show different stages of my work: a completed empirical analysis,
     <td width="50%" valign="top">
       <h3>02 · Agroecological practice adoption</h3>
       <p><a href="https://github.com/Masika-star/agroecological-practice-adoption"><img src="https://img.shields.io/badge/R%20project-Exploratory%20analysis-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R exploratory project"></a></p>
-      <p><strong>Ongoing data exploration</strong></p>
-      <p>An R learning and research project exploring a multi-country African agroecology dataset and how agroecological practices are represented across farm types.</p>
+      <p><strong>Ongoing exploratory analysis · Burkina Faso case study</strong></p>
+      <p>An R learning and research project exploring farm-level agroecological indicators in a multi-country African dataset. Recent work has moved from data auditing into correlation and simple linear regression using 98 Burkina Faso farm observations.</p>
       <ul>
-        <li>Started with 98 observations and 46 variables.</li>
-        <li>Removed 18 entirely empty columns from a working copy, leaving 98 observations and 28 variables.</li>
-        <li>Checked duplicate records and investigated missing livestock-related values.</li>
+        <li><strong>Data preparation:</strong> removed 18 entirely empty columns from a working copy, retaining 98 farms and 28 variables; the original dataset remains unchanged.</li>
+        <li><strong>Correlation:</strong> Pearson's r = -0.0423 (p = 0.679), showing negligible and statistically insignificant linear association between organic matter produced per cultivated hectare and the proportion of cultivated area fertilised with organic manure.</li>
+        <li><strong>Rank-based comparison:</strong> Spearman's rho = 0.2997 (p = 0.002718), indicating a positive, statistically significant monotonic association.</li>
+        <li><strong>Sensitivity check:</strong> Pearson's r changed to 0.228 (p = 0.0249) when farm 23 was excluded for this check. The observation is retained in the cleaned data and the main regression.</li>
+        <li><strong>Regression:</strong> the slope was not statistically significant (p = 0.679); R-squared = 0.00179 and adjusted R-squared = -0.00861. The one-predictor model explained very little variation in the outcome.</li>
       </ul>
-      <p><strong>Current work:</strong> checking variable definitions and data quality before exploring practice-adoption patterns.</p>
+      <p><strong>What I learned:</strong> Pearson and Spearman answer different questions; influential observations can affect a linear correlation; and statistical significance must be considered alongside explanatory power. These are exploratory associations, not causal effects.</p>
+      <p><strong>Reproducible work:</strong> <a href="https://github.com/Masika-star/agroecological-practice-adoption/blob/main/R/03_correlation_regression.R">analysis script</a> · <a href="https://github.com/Masika-star/agroecological-practice-adoption/blob/main/reports/correlation-regression-analysis.md">findings and interpretation</a>.</p>
       <p><a href="https://github.com/Masika-star/agroecological-practice-adoption">Project repository →</a></p>
     </td>
   </tr>
