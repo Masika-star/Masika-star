@@ -29,6 +29,8 @@ All experience, education, training and project claims below are based on the po
 ---
 
 
+
+
 ## Featured projects
 
 These projects show different stages of my work: a completed empirical analysis, an ongoing R exploration, and postgraduate research in development. I distinguish completed findings from proposed research so that the status of each project is clear.
