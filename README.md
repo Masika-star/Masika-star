@@ -28,8 +28,15 @@ All experience, education, training and project claims below are based on the po
 
 ---
 
+## About me
 
+I am an agricultural economics professional and postgraduate researcher based in **Nairobi, Kenya**, with more than four years of experience across agricultural research and monitoring, household surveys, farmer engagement, field coordination and agricultural operations.
 
+I hold a **BSc in Agricultural Economics and Resource Management from Maasai Mara University** and am currently pursuing an **MSc in Agricultural Economics at Chuka University**.
+
+My work brings together agricultural research, field experience and data analysis. I am interested in understanding how farming practices, production decisions and institutional support influence smallholder livelihoods and household food security. I use tools such as Stata, Excel and KoboToolbox in research and fieldwork, and I am building my R programming and reproducible research skills through practical, documented projects.
+
+**Current research focus:** Effects of Agroecological Practice Bundles on Household Food Security among Smallholder Maize Farmers in Kimilili Sub-County, Bungoma County, Kenya.
 
 ## Featured projects
 
@@ -90,16 +97,6 @@ These projects show different stages of my work: a completed empirical analysis,
 </table>
 
 <p>Additional research frameworks are documented separately in the <a href="projects/">Projects folder</a>.</p>
-
-## About me
-
-I am an agricultural economics professional and postgraduate researcher based in **Nairobi, Kenya**, with more than four years of experience across agricultural research and monitoring, household surveys, farmer engagement, field coordination and agricultural operations.
-
-I hold a **BSc in Agricultural Economics and Resource Management from Maasai Mara University** and am currently pursuing an **MSc in Agricultural Economics at Chuka University**.
-
-My work brings together agricultural research, field experience and data analysis. I am interested in understanding how farming practices, production decisions and institutional support influence smallholder livelihoods and household food security. I use tools such as Stata, Excel and KoboToolbox in research and fieldwork, and I am building my R programming and reproducible research skills through practical, documented projects.
-
-**Current research focus:** Effects of Agroecological Practice Bundles on Household Food Security among Smallholder Maize Farmers in Kimilili Sub-County, Bungoma County, Kenya.
 
 ## Research interests
 
@@ -200,3 +197,4 @@ I welcome opportunities for research collaboration, agricultural data analysis, 
 <p align="center">
   <em>Research carefully. Analyse clearly. Contribute to better agricultural and food systems.</em>
 </p>
+
