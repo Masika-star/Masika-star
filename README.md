@@ -42,72 +42,66 @@ My work brings together agricultural research, field experience and data analysi
 
 These projects show different stages of my work: a completed empirical analysis, an ongoing R exploration, and postgraduate research in development. I distinguish completed findings from proposed research so that the status of each project is clear.
 
-<table>
+<h3>01 · Kenya maize-yield analysis</h3>
+
+<p><strong>Three views of the same 51 annual observations</strong></p>
+<table width="100%">
   <tr>
-    <td width="100%" valign="top">
-      <h3>01 · Kenya maize-yield analysis</h3>
-      <p><strong>Three views of the same 51 annual observations</strong></p>
-      <table width="100%">
-        <tr>
-          <td width="33.33%" align="center" valign="top">
-            <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_trend.svg" alt="Kenya maize yield trend chart" width="100%"></a>
-            <sub><strong>Yield trend</strong></sub>
-          </td>
-          <td width="33.33%" align="center" valign="top">
-            <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_column.svg" alt="Annual Kenya maize yield column chart" width="100%"></a>
-            <sub><strong>Annual columns</strong></sub>
-          </td>
-          <td width="33.33%" align="center" valign="top">
-            <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_line.svg" alt="Annual Kenya maize yield line chart" width="100%"></a>
-            <sub><strong>Annual line</strong></sub>
-          </td>
-        </tr>
-      </table>
-      <p><strong>Completed empirical analysis</strong></p>
-      <p>Explores Kenya's annual maize-yield series from 1960 to 2010 using a reproducible R workflow.</p>
-      <ul>
-        <li>51 annual observations from a public FAOSTAT-derived series.</li>
-        <li>Data validation, descriptive statistics and trend visualisation.</li>
-        <li>Linear time-trend model with heteroskedasticity-robust inference.</li>
-      </ul>
-      <p><strong>Modelled trend:</strong> approximately 10.26 kg/ha per year. This is a historical association with time, not a causal estimate.</p>
-      <p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis">Project details and code →</a></p>
+    <td width="33.33%" align="center" valign="top">
+      <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_trend.svg" alt="Kenya maize yield trend chart" width="100%"></a>
+      <sub><strong>Yield trend</strong></sub>
     </td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <h3>02 · Agroecological practice adoption</h3>
-      <p><a href="https://github.com/Masika-star/agroecological-practice-adoption"><img src="https://img.shields.io/badge/R%20project-Exploratory%20analysis-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R exploratory project"></a></p>
-      <p><strong>Ongoing exploratory analysis · Agroecological Practice Adoption among Smallholder Farmers</strong></p>
-      <p>An R learning and research project, <em>Agroecological Practice Adoption among Smallholder Farmers: An Exploratory Analysis in R</em>, using the Viability of Agroecological Practices in Africa dataset. Recent work has moved from data auditing into correlation and simple linear regression using 98 farm observations.</p>
-      <ul>
-        <li><strong>Data preparation:</strong> removed 18 entirely empty columns from a working copy, retaining 98 farms and 28 variables; the original dataset remains unchanged.</li>
-        <li><strong>Correlation:</strong> Pearson's r = -0.0423 (p = 0.679), showing negligible and statistically insignificant linear association between organic matter produced per cultivated hectare and the proportion of cultivated area fertilised with organic manure.</li>
-        <li><strong>Rank-based comparison:</strong> Spearman's rho = 0.2997 (p = 0.002718), indicating a positive, statistically significant monotonic association.</li>
-        <li><strong>Sensitivity check:</strong> Pearson's r changed to 0.228 (p = 0.0249) when farm 23 was excluded for this check. The observation is retained in the cleaned data and the main regression.</li>
-        <li><strong>Regression:</strong> the slope was not statistically significant (p = 0.679); R-squared = 0.00179 and adjusted R-squared = -0.00861. The one-predictor model explained very little variation in the outcome.</li>
-      </ul>
-      <p><strong>What I learned:</strong> Pearson and Spearman answer different questions; influential observations can affect a linear correlation; and statistical significance must be considered alongside explanatory power. These are exploratory associations, not causal effects.</p>
-      <p><strong>Reproducible work:</strong> <a href="https://github.com/Masika-star/agroecological-practice-adoption/blob/main/R/03_correlation_regression.R">analysis script</a> · <a href="https://github.com/Masika-star/agroecological-practice-adoption/blob/main/reports/correlation-regression-analysis.md">findings and interpretation</a>.</p>
-      <p><a href="https://github.com/Masika-star/agroecological-practice-adoption">Project repository →</a></p>
+    <td width="33.33%" align="center" valign="top">
+      <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_column.svg" alt="Annual Kenya maize yield column chart" width="100%"></a>
+      <sub><strong>Annual columns</strong></sub>
     </td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <h3>03 · MSc research: practice bundles and food security</h3>
-      <p><img src="https://img.shields.io/badge/MSc%20research-In%20development-8a6d3b?style=for-the-badge" alt="MSc research in development"></p>
-      <p><strong>Postgraduate research project · Kimilili, Kenya</strong></p>
-      <p>Examines the effects of agroecological practice bundles on household food security among smallholder maize farmers in Kimilili Sub-County, Bungoma County.</p>
-      <ul>
-        <li>Characterises combinations of agroecological practices.</li>
-        <li>Examines their relationship with household food security.</li>
-        <li>Investigates production diversity as a pathway linking practice bundles and food security.</li>
-      </ul>
-      <p><em>Research framework and analytical plan under development; no empirical results are claimed here.</em></p>
-      <p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agroecology-food-security">Research framework →</a></p>
+    <td width="33.33%" align="center" valign="top">
+      <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_line.svg" alt="Annual Kenya maize yield line chart" width="100%"></a>
+      <sub><strong>Annual line</strong></sub>
     </td>
   </tr>
 </table>
+
+<p><strong>Completed empirical analysis</strong></p>
+<p>Explores Kenya's annual maize-yield series from 1960 to 2010 using a reproducible R workflow.</p>
+<ul>
+  <li>51 annual observations from a public FAOSTAT-derived series.</li>
+  <li>Data validation, descriptive statistics and trend visualisation.</li>
+  <li>Linear time-trend model with heteroskedasticity-robust inference.</li>
+</ul>
+<p><strong>Modelled trend:</strong> approximately 10.26 kg/ha per year. This is a historical association with time, not a causal estimate.</p>
+<p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis">Project details and code →</a></p>
+
+<hr>
+
+<h3>02 · Agroecological practice adoption</h3>
+<p><a href="https://github.com/Masika-star/agroecological-practice-adoption"><img src="https://img.shields.io/badge/R%20project-Exploratory%20analysis-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R exploratory project"></a></p>
+<p><strong>Ongoing exploratory analysis · Agroecological Practice Adoption among Smallholder Farmers</strong></p>
+<p>An R learning and research project, <em>Agroecological Practice Adoption among Smallholder Farmers: An Exploratory Analysis in R</em>, using the Viability of Agroecological Practices in Africa dataset. Recent work has moved from data auditing into correlation and simple linear regression using 98 farm observations.</p>
+<ul>
+  <li><strong>Data preparation:</strong> removed 18 entirely empty columns from a working copy, retaining 98 farms and 28 variables; the original dataset remains unchanged.</li>
+  <li><strong>Correlation:</strong> Pearson's r = -0.0423 (p = 0.679), showing negligible and statistically insignificant linear association between organic matter produced per cultivated hectare and the proportion of cultivated area fertilised with organic manure.</li>
+  <li><strong>Rank-based comparison:</strong> Spearman's rho = 0.2997 (p = 0.002718), indicating a positive, statistically significant monotonic association.</li>
+  <li><strong>Sensitivity check:</strong> Pearson's r changed to 0.228 (p = 0.0249) when farm 23 was excluded for this check. The observation is retained in the cleaned data and the main regression.</li>
+  <li><strong>Regression:</strong> the slope was not statistically significant (p = 0.679); R-squared = 0.00179 and adjusted R-squared = -0.00861. The one-predictor model explained very little variation in the outcome.</li>
+</ul>
+<p><strong>What I learned:</strong> Pearson and Spearman answer different questions; influential observations can affect a linear correlation; and statistical significance must be considered alongside explanatory power. These are exploratory associations, not causal effects.</p>
+<p><strong>Reproducible work:</strong> <a href="https://github.com/Masika-star/agroecological-practice-adoption/blob/main/R/03_correlation_regression.R">analysis script</a> · <a href="https://github.com/Masika-star/agroecological-practice-adoption/blob/main/reports/correlation-regression-analysis.md">findings and interpretation</a>.</p>
+<p><a href="https://github.com/Masika-star/agroecological-practice-adoption">Project repository →</a></p>
+
+<hr>
+
+<h3>03 · MSc research: practice bundles and food security</h3>
+<p><img src="https://img.shields.io/badge/MSc%20research-In%20development-8a6d3b?style=for-the-badge" alt="MSc research in development"></p>
+<p><strong>Postgraduate research project · Kimilili, Kenya</strong></p>
+<p>Examines the effects of agroecological practice bundles on household food security among smallholder maize farmers in Kimilili Sub-County, Bungoma County.</p>
+<ul>
+  <li>Characterises combinations of agroecological practices.</li>
+  <li>Examines their relationship with household food security.</li>
+  <li>Investigates production diversity as a pathway linking practice bundles and food security.</li>
+</ul>
+<p><em>Research framework and analytical plan under development; no empirical results are claimed here.</em></p>
+<p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agroecology-food-security">Research framework →</a></p>
 
 <p>Additional research frameworks are documented separately in the <a href="projects/">Projects folder</a>.</p>
 
