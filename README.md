@@ -9,7 +9,7 @@ All experience, education, training and project claims below are based on the po
 
 <h1 align="center">Masika M. Joshua</h1>
 
-<h3 align="center">Agricultural Research · Agricultural Economics · Data Analytics</h3>
+<h3 align="center">Agricultural Data Analyst · M&amp;E · Survey Data · Applied Econometrics</h3>
 
 <p align="center">
   <strong>📍 Nairobi, Kenya</strong> &nbsp;·&nbsp;
@@ -23,18 +23,18 @@ All experience, education, training and project claims below are based on the po
 </p>
 
 <p align="center">
-  <strong>Interested in how evidence can strengthen smallholder agriculture, food security and rural livelihoods.</strong>
+  <strong>I turn household survey and field data into evidence for smallholder agriculture and food security.</strong>
 </p>
 
 ---
 
 ## About me
 
-I am an agricultural economics professional and postgraduate researcher based in **Nairobi, Kenya**, with more than four years of experience across agricultural research and monitoring, household surveys, farmer engagement, field coordination and agricultural operations.
+I am an **agricultural data analyst and postgraduate researcher** based in **Nairobi, Kenya**, with more than four years of experience across agricultural research, monitoring and evaluation, household surveys, farmer engagement, field coordination and agricultural operations.
 
-I hold a **BSc in Agricultural Economics and Resource Management from Maasai Mara University** and am currently pursuing an **MSc in Agricultural Economics at Chuka University**.
+I hold a **BSc in Agricultural Economics and Resource Management from Maasai Mara University** and am completing an **MSc in Agricultural Economics at Chuka University**.
 
-My work brings together agricultural research, field experience and data analysis. I am interested in understanding how farming practices, production decisions and institutional support influence smallholder livelihoods and household food security. I use tools such as Stata, Excel and KoboToolbox in research and fieldwork, and I am building my R programming and reproducible research skills through practical, documented projects.
+I use **Stata, R (tidyverse), Excel and KoboToolbox / ODK** to support data analysis, survey workflows and field research. I document my analytical work through RStudio Projects and Git/GitHub, while continuing to strengthen my applied econometrics and reproducible research practice.
 
 **Current research focus:** Effects of Agroecological Practice Bundles on Household Food Security among Smallholder Maize Farmers in Kimilili Sub-County, Bungoma County, Kenya.
 
@@ -42,7 +42,7 @@ My work brings together agricultural research, field experience and data analysi
 
 These projects show different stages of my work: a completed empirical analysis, an ongoing R exploration, and postgraduate research in development. I distinguish completed findings from proposed research so that the status of each project is clear.
 
-<h3>01 · Kenya maize-yield analysis</h3>
+<h3>01 · Kenya maize-yield trend analysis (R) — completed</h3>
 
 <p><strong>Three views of the same 51 annual observations</strong></p>
 <table width="100%">
@@ -63,7 +63,7 @@ These projects show different stages of my work: a completed empirical analysis,
 </table>
 
 <p><strong>Completed empirical analysis</strong></p>
-<p>Explores Kenya's annual maize-yield series from 1960 to 2010 using a reproducible R workflow.</p>
+<p>Reproducible analysis of Kenya's annual maize-yield series (FAOSTAT-derived, 1960–2010), using R for data validation, descriptive statistics, trend visualisation and a linear time-trend model with heteroskedasticity-robust inference.</p>
 <ul>
   <li>51 annual observations from a public FAOSTAT-derived series.</li>
   <li>Data validation, descriptive statistics and trend visualisation.</li>
@@ -77,9 +77,10 @@ These projects show different stages of my work: a completed empirical analysis,
 <h3>02 · Agroecological practice adoption</h3>
 <p><a href="https://github.com/Masika-star/agroecological-practice-adoption"><img src="https://img.shields.io/badge/R%20project-Exploratory%20analysis-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R exploratory project"></a></p>
 <p><strong>Ongoing exploratory analysis · Agroecological Practice Adoption among Smallholder Farmers</strong></p>
-<p>An R learning and research project, <em>Agroecological Practice Adoption among Smallholder Farmers: An Exploratory Analysis in R</em>, using the Viability of Agroecological Practices in Africa dataset. Recent work has moved from data auditing into correlation and simple linear regression using 98 farm observations.</p>
+<p>An ongoing R project, <em>Agroecological Practice Adoption among Smallholder Farmers: An Exploratory Analysis in R</em>, using the Viability of Agroecological Practices in Africa dataset. The current working extract contains 98 farm observations and 28 retained variables after 18 entirely empty columns were removed from a copy of the original data. The analysis combines data-quality screening with exploratory correlation and simple linear regression.</p>
 <ul>
-  <li><strong>Data preparation:</strong> removed 18 entirely empty columns from a working copy, retaining 98 farms and 28 variables; the original dataset remains unchanged.</li>
+  <li><strong>Data preparation:</strong> removed 18 entirely empty columns from a working copy, retaining 98 observations and 28 variables; the original dataset remains unchanged.</li>
+  <li><strong>Data-quality checks:</strong> checked observation IDs for duplicates, investigated missing values and reviewed variable definitions and measurement scales. No duplicate observation IDs were found; missingness was concentrated in four livestock-related variables (24 cases each), with one additional missing value in permanent hired workers.</li>
   <li><strong>Correlation:</strong> Pearson's r = -0.0423 (p = 0.679), showing negligible and statistically insignificant linear association between organic matter produced per cultivated hectare and the proportion of cultivated area fertilised with organic manure.</li>
   <li><strong>Rank-based comparison:</strong> Spearman's rho = 0.2997 (p = 0.002718), indicating a positive, statistically significant monotonic association.</li>
   <li><strong>Sensitivity check:</strong> Pearson's r changed to 0.228 (p = 0.0249) when farm 23 was excluded for this check. The observation is retained in the cleaned data and the main regression.</li>
@@ -151,7 +152,7 @@ My current toolkit combines statistical software, field data-collection platform
 
 ## Professional Experience
 
-For my roles in agricultural research and M&E, farm management, agricultural extension and household enumeration, [view my professional experience](experience/).
+My experience includes work as a **Research and M&amp;E Analyst, Farm Manager, Agricultural Intern and KNBS Census Enumerator**. [View my professional experience](experience/).
 
 ## Education and professional development
 
@@ -189,7 +190,7 @@ Restricted or confidential farmer-level data are not published in this portfolio
 
 ## Connect With Me
 
-I welcome opportunities for research collaboration, agricultural data analysis, field research, monitoring and evaluation, and evidence-based work on food systems and rural development.
+I am open to **Data Analyst, M&amp;E / MEL and research roles** in agriculture, food systems and rural development, as well as opportunities for research collaboration and evidence-based fieldwork.
 
 <p align="center">
   📍 Nairobi, Kenya
