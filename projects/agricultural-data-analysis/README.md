@@ -103,6 +103,8 @@ Further work should link yield to seasonal rainfall and other explanatory variab
 - FAOSTAT dataset catalogue (1961–2024; yield unit hg/ha): https://data.fao.org/catalog/iso/d24a448b-3b62-4c09-8c1d-4a39bb599876
 - FAO, *Agricultural production statistics 2010–2024*: https://www.fao.org/statistics/highlights-archive/highlights-detail/agricultural-production-statistics-2010-2024/en
 - World Bank, *Kenya Agricultural Sector Risk Assessment*: https://documents1.worldbank.org/curated/en/294711467992513646/pdf/97887-REVISED-WP-P148139-PUBLIC-Box393257B-Kenya-Agricultural-Sector-Risk-Assessment.pdf
+- Kenya National Bureau of Statistics, *Economic Survey 2018*: https://www.knbs.or.ke/wp-content/uploads/2023/09/2018-Economic-Survey.pdf
+- World Bank, *Kenya Country Environmental Analysis*: https://kcckp.go.ke/api/media/file/Kenya-Country-Environmental-Analysis-1.pdf
 - Kenya Meteorological Department, *State of the Climate Kenya 2023*: https://meteo.go.ke/documents/802/SoC_Kenya_2023_1.pdf
 
 ### Project status
