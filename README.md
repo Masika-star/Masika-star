@@ -45,33 +45,34 @@ These projects show different stages of my work: a completed empirical analysis,
 
 <h3>01 · Kenya maize-yield trend analysis (R) — completed</h3>
 
-<p><strong>Three views of the same 51 annual observations</strong></p>
+<p><strong>Three views of 64 annual observations, 1961–2024</strong></p>
 <table width="100%">
   <tr>
     <td width="33.33%" align="center" valign="top">
-      <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_trend.svg" alt="Kenya maize yield trend chart" width="100%"></a>
-      <sub><strong>Yield trend</strong></sub>
+      <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_trend.svg" alt="Kenya maize yield log-linear trend and selected structural break" width="100%"></a>
+      <sub><strong>Log-linear trend</strong></sub>
     </td>
     <td width="33.33%" align="center" valign="top">
-      <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_column.svg" alt="Annual Kenya maize yield column chart" width="100%"></a>
-      <sub><strong>Annual columns</strong></sub>
+      <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_column.svg" alt="Annual Kenya maize yield columns with drought-context years highlighted" width="100%"></a>
+      <sub><strong>Annual yields</strong></sub>
     </td>
     <td width="33.33%" align="center" valign="top">
-      <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_line.svg" alt="Annual Kenya maize yield line chart" width="100%"></a>
-      <sub><strong>Annual line</strong></sub>
+      <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis"><img src="https://raw.githubusercontent.com/Masika-star/Masika-star/main/projects/agricultural-data-analysis/outputs/figures/maize_yield_annual_line.svg" alt="Kenya maize yield annual fluctuations with drought episode periods shaded" width="100%"></a>
+      <sub><strong>Drought context</strong></sub>
     </td>
   </tr>
 </table>
 
 <p><strong>Completed empirical analysis</strong></p>
-<p>Reproducible analysis of Kenya's annual maize-yield series (FAOSTAT-derived, 1960–2010), using R for data validation, descriptive statistics, trend visualisation and a linear time-trend model with heteroskedasticity-robust inference.</p>
+<p>Extended FAOSTAT-based analysis of Kenya's annual maize yield from 1961 to 2024. The reproducible R workflow includes data validation, descriptive statistics, log-linear modelling, Newey–West inference and an exploratory one-break trend screen.</p>
 <ul>
-  <li>51 annual observations from a public FAOSTAT-derived series.</li>
-  <li>Data validation, descriptive statistics and trend visualisation.</li>
-  <li>Linear time-trend model with heteroskedasticity-robust inference.</li>
+  <li><strong>Data:</strong> 64 annual observations, 1961–2024; the previous extract's one-year date-label shift was corrected.</li>
+  <li><strong>Log-linear trend:</strong> estimated average growth of approximately 0.49% per year (95% HAC CI: 0.23%–0.74%; p ≈ 0.00029).</li>
+  <li><strong>Structural change:</strong> a BIC-based one-break screen selected 1982; the estimated trajectory is positive before the break and slightly negative afterwards. This is a provisional data-selected break, not a causal explanation.</li>
+  <li><strong>Drought context:</strong> documented episodes are shown alongside annual yield movements, while the write-up distinguishes temporal coincidence from causal attribution.</li>
 </ul>
-<p><strong>Modelled trend:</strong> approximately 10.26 kg/ha per year. This is a historical association with time, not a causal estimate.</p>
-<p><a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis">Project details and code →</a></p>
+<p><strong>Interpretation:</strong> the full-period model indicates modest positive average growth, but the series is volatile and the single trend masks a possible change in trajectory. The analysis is descriptive, not causal.</p>
+<p><strong>Project files:</strong> <a href="https://github.com/Masika-star/Masika-star/tree/main/projects/agricultural-data-analysis">R code, data and visual outputs</a> · <a href="https://github.com/Masika-star/Masika-star/blob/main/projects/agricultural-data-analysis/reports/maize-yield-trend-analysis.md">detailed analysis and interpretation</a>.</p>
 
 <hr>
 
