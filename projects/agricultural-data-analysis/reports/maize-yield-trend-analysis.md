@@ -113,7 +113,7 @@ These results suggest that the full-period average of +0.49% per year masks a ch
 
 ## 6. Drought episodes and annual yield movements
 
-Kenyan climate and agricultural-risk literature documents several major drought episodes. The World Bank's Kenya Country Environmental Analysis identifies drought periods including 1983–1984, 1991–1993, 1999–2000 and 2007–2009. The World Bank's Kenya Agricultural Sector Risk Assessment also describes 1984, 2000 and 2009 as very dry years and reports adverse effects of growing-season drought on maize production in some regions. Kenya Meteorological Department reports that the beginning of 2023 followed five consecutive failed rainy seasons since November 2020.
+Kenyan climate and agricultural-risk literature documents several major drought episodes. The World Bank's Kenya Country Environmental Analysis identifies drought periods including 1983–1984, 1991–1993, 1999–2000 and 2007–2009. The World Bank's Kenya Agricultural Sector Risk Assessment also describes 1984, 2000 and 2009 as very dry years and reports adverse effects of growing-season drought on maize production in some regions. The KNBS 2018 Economic Survey attributes depressed crop performance in 2017 to dry weather, including a decline in maize production, while the Kenya Meteorological Department reports that the beginning of 2023 followed five consecutive failed rainy seasons since November 2020.
 
 Selected national yield movements around documented drought periods are shown below. The percentage change is calculated relative to the previous calendar year's yield.
 
@@ -158,6 +158,7 @@ The next logical extension is to merge the yield series with rainfall anomalies,
 - FAO, *Agricultural production statistics 2010–2024* (31 December 2025): https://www.fao.org/statistics/highlights-archive/highlights-detail/agricultural-production-statistics-2010-2024/en
 - World Bank, *Kenya Agricultural Sector Risk Assessment*: https://documents1.worldbank.org/curated/en/294711467992513646/pdf/97887-REVISED-WP-P148139-PUBLIC-Box393257B-Kenya-Agricultural-Sector-Risk-Assessment.pdf
 - World Bank, *Kenya Country Environmental Analysis*: https://kcckp.go.ke/api/media/file/Kenya-Country-Environmental-Analysis-1.pdf
+- Kenya National Bureau of Statistics, *Economic Survey 2018*: https://www.knbs.or.ke/wp-content/uploads/2023/09/2018-Economic-Survey.pdf
 - Kenya Meteorological Department, *State of the Climate Kenya 2023*: https://meteo.go.ke/documents/802/SoC_Kenya_2023_1.pdf
 
 The full workflow is in the `R/` directory. Run it from the repository root with:
